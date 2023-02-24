@@ -14,6 +14,7 @@
 	  },
 	"scripts": {
 		"test": "bun wiptest",
+		"te": "sheep -h",
 		"prepublishOnly": "tsc"
 	},
 	"dependencies": {
