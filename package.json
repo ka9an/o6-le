@@ -1,27 +1,27 @@
 {
-	"name": "@o6/le",
-	"version": "0.0.1",
-	"description": "tiny",
-	"type": "module",
-	"main": "./lib/index.js",
-	"module": "index.ts",
-	"types": "./lib/index.d.ts",
-	"files": [
-		"./lib/*"
-	],
-	"publishConfig": {
-		"access": "public"
-	  },
-	"scripts": {
-		"test": "bun wiptest",
-		"te": "sheep -h",
-		"prepublishOnly": "tsc"
-	},
-	"dependencies": {
-		"rome": "^11.0.0",
-		"typescript": "^4.9.4"
-	},
-	"devDependencies": {
-		"bun-types": "^0.4.0"
-	}
+  "name": "@o6/le",
+  "version": "0.0.2",
+  "description": "tiny",
+  "type": "module",
+  "main": "./lib/index.js",
+  "module": "index.ts",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "./lib/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "bun wiptest",
+    "te": "sheep -h",
+    "prepublishOnly": "tsc"
+  },
+  "dependencies": {
+    "rome": "^11.0.0",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "bun-types": "^0.4.0"
+  }
 }
