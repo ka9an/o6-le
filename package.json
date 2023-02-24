@@ -1,6 +1,6 @@
 {
   "name": "@o6/le",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "tiny",
   "type": "module",
   "main": "./lib/index.js",
@@ -18,6 +18,7 @@
     "prepublishOnly": "tsc"
   },
   "dependencies": {
+    "conventional-changelog": "^3.1.25",
     "rome": "^11.0.0",
     "typescript": "^4.9.4"
   },
